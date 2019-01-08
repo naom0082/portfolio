@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <meta name="robots" content="no index">
+
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <header>
+
+        <div class="title">
+            <h1>Egen animation - spil</h1>
+        </div>
+        <div class="topnav" id="myTopnav">
+
+         <a href="#home" class="active">
+                Portfolio
+            </a>
+
+            <div class="dropdown">
+                <div class="dropbtn"><a href="about.html">
+                        about
+                    </a>
+                    <i class="fa fa-caret-down"></i>
+                </div>
+
+            </div>
+
+            <div class="dropdown">
+                <div class="dropbtn"><a href="project.html">
+                        projects
+                    </a>
+                    <i class="fa fa-caret-down"></i>
+                </div>
+
+                <div class="dropdown-content">
+                    <div class="content"><a href="tema1.html">
+                            <h2 style="font-size: 0.8vw;">Tema 1</h2>
+                        </a>
+                    </div>
+                    <div class="content"><a href="tema2.html">
+                            <h2 style="font-size: 0.8vw;">Tema 2</h2>
+                        </a>
+                    </div>
+                    <div class="content"><a href="tema3.html">
+                            <h2 style="font-size: 0.8vw;">Tema 3</h2>
+                        </a>
+                    </div>
+                    <div class="content"><a href="tema4.html">
+                            <h2 style="font-size: 0.8vw;">Tema 4</h2>
+                        </a>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+        </div>
+
+    </header>
+
+    <section id="tema3">
+
+        <div class="sectionwrapper">
+
+            <div class="americantext">
+
+                <img src="titelscene-100%202.jpg" alt="titelscene">
+
+                <div class="link_spil">
+                    <a href="http://naomitangoe.dk/kea/03-animation/spil/">Prøv mit spil her!</a>
+                </div>
+            </div>
+
+            <div class="text_spil">
+
+
+                <p style="font-size: 1.6vw;"> Overstående billede er spillescenen på 'Help Mr. Turtle Out Of His Hurtle' </p>
+                <p style="font-size: 1.3vw;">I Dette animation forløb har jeg skulle lave et spil ved brug HTML, CSS og Javascript. Vi har igennem en række øvelser fået kendskab til hvordan man kan animere gennem javascript. Jeg har specielt fokuseret på animationer, som TranslateX og translateY, da mine figure har en del bevægelse. Derudover har jeg ved hjælp af javascript benyttet mig af variabler såsom, tid og point.</p>
+
+
+            </div>
+
+
+            <div class="boks">
+
+                <p style="font-size: 1.9vw;">PITCH</p>
+
+                <p style="font-size: 1.3vw;">
+
+                    Dette lille spil skal skabe opmærksomhed på plastik i havet.
+                </p>
+
+                <p style="font-size: 1.3vw;">
+                    Man skal i spillet sikre at Mr. Turtle og alle hans venners overlevelse i havet, ved at samle plastik. Jo mere plastik du fjerner, desto gladere bliver Mr. Turtle og du får da mulighed for at komme til næste level. Sker dette ikke, og du får enten taget noget som ikke er plast eller lader plasten ramme bundet, så mister du et af dine 3 liv på Mr. Turtles bekostning. Så skynd dig, det handler alt sammen om tid, før at Mr. Turtle og alle hans venner må lade livet for alle menneskernes plastik.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+</body>
+
+</html>

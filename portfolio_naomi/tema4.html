@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <meta name="robots" content="no index">
+
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <header>
+
+
+        <div class="title">
+
+            <h1>Grundlæggende UX</h1>
+
+        </div>
+        <div class="topnav" id="myTopnav">
+
+            <a href="#home" class="active">Portfolio</a>
+
+            <div class="dropdown">
+                <div class="dropbtn"><a href="about.html">
+                        about
+                    </a>
+                    <i class="fa fa-caret-down"></i>
+                </div>
+
+
+            </div>
+
+            <div class="dropdown">
+                <div class="dropbtn"><a href="project.html">
+                        project
+                    </a>
+                    <i class="fa fa-caret-down"></i>
+                </div>
+
+                <div class="dropdown-content">
+                    <div class="content"><a href="tema1.html">
+                            <h2 style="font-size: 0.8vw;">Tema 1</h2>
+                        </a>
+                    </div>
+                    <div class="content"><a href="tema2.html">
+                            <h2 style="font-size: 0.8vw;">Tema 2</h2>
+                        </a>
+                    </div>
+                    <div class="content"><a href="tema3.html">
+                            <h2 style="font-size: 0.8vw;">Tema 3</h2>
+                        </a>
+                    </div>
+                    <div class="content"><a href="tema4.html">
+                            <h2 style="font-size: 0.8vw;">Tema 4</h2>
+                        </a>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+        </div>
+
+    </header>
+
+    <section id="tema1">
+
+        <div class="sectionwrapper">
+            <div class="main">
+
+                <div class="designsprint">
+                    <img src="Sk%C3%A6rmbillede%202019-01-06%20kl.%2022.05.03.jpg" alt="Design Sprint" class="americanmagazine">
+                    <div class="overlay">
+                        <div class="text"><a href="04.02.01.html">04.02.01</a></div>
+                    </div>
+                </div>
+
+                <div class="textpic">
+                    <p>Design Sprint - XD prototype af ny ronter</p>
+                </div>
+
+            </div>
+
+
+
+            <div class="main">
+                <div class="webprototype">
+                    <img src="Sk%C3%A6rmbillede%202019-01-07%20kl.%2010.24.52.png" alt="Design Sprint: Native app" class="americanmagazine">
+                    <div class="overlay">
+                        <div class="text"><a href="04.03.01.html">04.03.01</a></div>
+                    </div>
+                </div>
+
+                <div class="textpic">
+                    <p>Web prototype</p>
+                </div>
+
+            </div>
+
+            <div class="main">
+                <div class="nativeapp">
+                    <img src="Sk%C3%A6rmbillede%202018-12-21%20kl.%2010.19.09%202.jpg" alt="Design Sprint: Native app" class="americanmagazine">
+                    <div class="overlay">
+                        <div class="text"><a href="04.04.01.html">04.04.01</a></div>
+                    </div>
+                </div>
+
+                <div class="textpic">
+                    <p>KEA Social app - Native App</p>
+                </div>
+
+            </div>
+
+            <div class="main">
+                <div class="temadokumentation">
+                    <img src="Sk%C3%A6rmbillede%202019-01-07%20kl.%2010.21.24.png" class="americanmagazine" alt="temadokumentation">
+                    <div class="overlay">
+                        <div class="text"><a href="04.04.02.html">04.04.02</a></div>
+                    </div>
+                </div>
+
+                <div class="textpic">
+                    <p>Temadokumentation</p>
+                </div>
+
+            </div>
+
+
+
+        </div>
+
+
+
+
+
+
+    </section>
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <meta name="robots" content="no index">
+
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <header>
+
+        <div class="title">
+            <h1>Redesign af hjemmeside</h1>
+        </div>
+        <div class="topnav" id="myTopnav">
+
+          <a href="#home" class="active">
+                Portfolio
+            </a>
+
+            <div class="dropdown">
+                <div class="dropbtn"><a href="about.html">
+                        about
+                    </a>
+                    <i class="fa fa-caret-down"></i>
+                </div>
+
+            </div>
+
+            <div class="dropdown">
+                <div class="dropbtn"><a href="project.html">
+                        projects
+                    </a>
+                    <i class="fa fa-caret-down"></i>
+                </div>
+
+                <div class="dropdown-content">
+                    <div class="content"><a href="tema1.html">
+                            <h2 style="font-size: 0.8vw;">Tema 1</h2>
+                        </a>
+                    </div>
+                    <div class="content"><a href="tema2.html">
+                            <h2 style="font-size: 0.8vw;">Tema 2</h2>
+                        </a>
+                    </div>
+                    <div class="content"><a href="tema3.html">
+                            <h2 style="font-size: 0.8vw;">Tema 3</h2>
+                        </a>
+                    </div>
+                    <div class="content"><a href="tema4.html">
+                            <h2 style="font-size: 0.8vw;">Tema 4</h2>
+                        </a>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+        </div>
+
+    </header>
+
+    <section id="tema2">
+
+        <div class="sectionwrapper">
+            <div class="americantext">
+                <img src="bernhard1200px%202.jpg" alt="oliviabohl" class="americanmagazine">
+
+            </div>
+
+            <div class="link_petitgas">
+                <a href="http://naomitangoe.dk/kea/02-content/02-redesign/02_02_06_redesign/galleri.html#galleri">Se hjemmeside og video her!</a>
+            </div>
+
+            <div class="petitgas_text">
+
+
+                <p style="font-size: 1.6vw;"> Overstående video er lavet i forbindelse med vores redesign af 'Petitgas' hjemmeside, hvor den også fremgår. </p>
+                <p style="font-size: 1.3vw;">Med dette projekt blev vi i en gruppe sat til opgave at finde vores egen virksomhed, hvor vi mente vi kunne redesigne en deres hjemmeside til det bedre. I den forbindelse valgte vi verdens næstældste hattebutik 'Petitgas', som havde en stortset tom hjemmeside. Vi tog vores erfaring med fra tidligere pilotprojekt, i interviewet med ejeren af 'Petitgas' samt fra vores første projekt, hvor vi skulle lave et responsivt site</p>
+
+
+            </div>
+
+
+            <div class="boks">
+
+                <p style="font-size: 1.9vw;">Opgavens indhold</p>
+                <p style="font-size: 1.3vw;">
+                    <p style="font-size: 1.3vw;">
+
+                        1. Gruppekontrakt<br>
+                        2. Analyse af eksisterende website, 5 sec test samt BERT test - styletile, Wireframe samt fotostil<br>
+                        3. Dokumentationssite - synopsis og storyboard, herunder: <br>
+                        - Beskrivelse af valgte målgruppe<br>
+                        - Analyse af eksisterende website, 5 sec test samt BERT test<br>
+                        - Produktionsplan: video + still-fotos<br>
+
+                        4. Virksomhedvideo - Storyboard, interview, Mastershots, Firmalogo, ekstern lyd - ekspoteres og renderes i video format H.264, 3 framings og min. 5 klip <br><br>
+                        Jeg har aktivt lyttet, og gjort interview personen opmærksom på at inkludere mit spørgsmål.
+                    </p>
+
+            </div>
+
+
+
+            <div class="billede_to">
+                <img src="d%C3%B8r1200.jpg" class="americanmagazine" alt="door">
+            </div>
+
+            <div class="billede_et">
+                <img src="stok1200px.jpg" class="americanmagazine" alt="stok">
+            </div>
+
+            <div class="billede_to">
+                <img src="kasseapp1200px.jpg" class="americanmagazine" alt="kasse">
+            </div>
+
+            <div class="billede_et">
+                <img src="visitkort800px.jpg" class="americanmagazine" alt="visitkort">
+            </div>
+
+        </div>
+
+    </section>
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+</body>
+
+</html>

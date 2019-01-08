@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <meta name="robots" content="no index">
+
+
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <header>
+
+
+        <div class="title">
+
+            <h1>Grundlæggende HTML</h1>
+
+        </div>
+        <div class="topnav" id="myTopnav">
+
+            <a href="#home" class="active">
+                Portfolio
+            </a>
+
+            <div class="dropdown">
+                <div class="dropbtn"><a href="about.html">
+                        about
+                    </a>
+                    <i class="fa fa-caret-down"></i>
+                </div>
+
+
+            </div>
+
+            <div class="dropdown">
+                <div class="dropbtn"><a href="project.html">
+                        projects
+                    </a>
+                    <i class="fa fa-caret-down"></i>
+                </div>
+
+                <div class="dropdown-content">
+                    <div class="content"><a href="tema1.html">
+                            <h2 style="font-size: 0.8vw;">Tema 1</h2>
+                        </a>
+                    </div>
+                    <div class="content"><a href="tema2.html">
+                            <h2 style="font-size: 0.8vw;">Tema 2</h2>
+                        </a>
+                    </div>
+                    <div class="content"><a href="tema3.html">
+                            <h2 style="font-size: 0.8vw;">Tema 3</h2>
+                        </a>
+                    </div>
+                    <div class="content"><a href="tema4.html">
+                            <h2 style="font-size: 0.8vw;">Tema 4</h2>
+                        </a>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+        </div>
+    </header>
+
+    <section id="tema1">
+
+        <div class="sectionwrapper">
+            <div class="container">
+                <img src="moodboard1.jpg" alt="oliviabohl" class="americanmagazine">
+                <div class="overlay">
+                    <div class="text"><a href="http://naomitangoe.dk/kea/01-web/04-responsive/01_04_01_responsive_v2/">Responsive side</a></div>
+                </div>
+            </div>
+            <div class="americantext">
+
+
+                <p style="font-size: 1.5vw;"> klik på billedet for at se den responsive side for stilarten 'American Magazine' </p>
+                <p>Jeg har i dette projekt skulle lave en website på baggrund af en stilart, som i denne forbindelse er American Magazine. Sitet skulle følge et bestemt layot-diagram og skulle være responsivt til minimum tre formater. Dette er blevet gjort emd passende mediaqueries og et tilpasset splashbillede. Derudover er der blevet valgt font på googlefont efter stilarten, hvilket blev 'Didot' da den er typisk brugt i modelmagsiner og derfor afspejler stilarten godt.</p>
+
+
+            </div>
+
+
+            <div class="boks">
+
+                <p style="font-size: 1.5vw;">Om stilarten </p>
+                <p>Under de deprimerende tider, strømmede håbefulde europæere til Amerika med drømmen om at skabe noget nyt og innovativt. Med dette kom nogle af tidens bedste art directors, så som Alexy Brodovitch, Cipe Pineles og Joseph Binder. De skabte på hver deres måde, det man i dag kender som stilarten Amercian Magazine. </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+
+    </script>
+</body>
+
+</html>

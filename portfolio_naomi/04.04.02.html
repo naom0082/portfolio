@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <meta name="robots" content="no index">
+
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <header>
+
+        <div class="title">
+
+            <h1>Temadokumentation</h1>
+
+        </div>
+        <div class="topnav" id="myTopnav">
+
+         <a href="#home" class="active">
+                Portfolio
+            </a>
+
+            <div class="dropdown">
+                <div class="dropbtn"><a href="about.html">
+                        about
+                    </a>
+                    <i class="fa fa-caret-down"></i>
+                </div>
+
+            </div>
+
+            <div class="dropdown">
+                <div class="dropbtn"><a href="project.html">
+                        projects
+                    </a>
+                    <i class="fa fa-caret-down"></i>
+                </div>
+
+                <div class="dropdown-content">
+                    <div class="content"><a href="tema1.html">
+                            <h2 style="font-size: 0.8vw;">Tema 1</h2>
+                        </a>
+                    </div>
+                    <div class="content"><a href="tema2.html">
+                            <h2 style="font-size: 0.8vw;">Tema 2</h2>
+                        </a>
+                    </div>
+                    <div class="content"><a href="tema3.html">
+                            <h2 style="font-size: 0.8vw;">Tema 3</h2>
+                        </a>
+                    </div>
+                    <div class="content"><a href="tema4.html">
+                            <h2 style="font-size: 0.8vw;">Tema 4</h2>
+                        </a>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+        </div>
+    </header>
+
+    <section id="tema3">
+
+        <div class="sectionwrapper">
+            <div class="boks">
+
+                <p style="font-size: 2vw;">Design Sprint</p>
+
+                <p style="font-size: 1.4vw;">Igennem vores Tema 4 - Grundlæggende UX har vi arbejdet med design sprint, til alle vores projekter. Alt dette er samlet i en temadokumentation, som er vist nedenfor. Design Sprintet går igennem 5 overordnede faser: </p>
+                <p style="font-size: 1.3vw;">
+
+                    <p style="font-size: 1.6vw;">
+                        MAP<br>Long term goal, Sprint questions, Map, Ekspertoplæg med HMW
+                        notes<br><br>
+                        SKETCH<br>Lightning demos, The Four-step sketch<br><br>
+                        DECIDE<br>Artmuseum, Heatmap, Speed Critique, Vote (straw poll),
+                        Storyboard<br><br>
+                        PROTOTYPE<br>XD<br><br>
+                        TEST<br>brugertest, find problemområder og lav forbedringer til version
+                        nr. 2.<br><br>
+            </div>
+
+
+            <embed src="04_04_02_temadokumentation_naomi.pdf" class="pdf_embed">
+
+        </div>
+
+    </section>
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+</body>
+
+</html>

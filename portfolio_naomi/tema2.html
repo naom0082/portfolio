@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <meta name="robots" content="no index">
+
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <header>
+
+
+        <div class="title">
+
+            <h1>Grundlæggende Video</h1>
+
+        </div>
+        <div class="topnav" id="myTopnav">
+
+            <a href="#home" class="active">Portfolio</a>
+
+            <div class="dropdown">
+                <div class="dropbtn"><a href="about.html">
+                        about
+                    </a>
+                    <i class="fa fa-caret-down"></i>
+                </div>
+
+
+            </div>
+
+            <div class="dropdown">
+                <div class="dropbtn"><a href="project.html">
+                        projects
+                    </a>
+                    <i class="fa fa-caret-down"></i>
+                </div>
+
+                <div class="dropdown-content">
+                    <div class="content"><a href="tema1.html">
+                            <h2 style="font-size: 0.8vw;">Tema 1</h2>
+                        </a>
+                    </div>
+                    <div class="content"><a href="tema2.html">
+                            <h2 style="font-size: 0.8vw;">Tema 2</h2>
+                        </a>
+                    </div>
+                    <div class="content"><a href="tema3.html">
+                            <h2 style="font-size: 0.8vw;">Tema 3</h2>
+                        </a>
+                    </div>
+                    <div class="content"><a href="tema4.html">
+                            <h2 style="font-size: 0.8vw;">Tema 4</h2>
+                        </a>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+        </div>
+    </header>
+
+    <section id="tema2">
+
+        <div class="sectionwrapper">
+            <div class="main">
+
+                <div class="olivia">
+                    <img src="Sk%C3%A6rmbillede%202019-01-02%20kl.%2017.09.43.jpg" alt="oliviabohl" class="americanmagazine">
+                    <div class="overlay">
+                        <div class="text"><a href="02.01.01.html">02.01.01</a></div>
+                    </div>
+                </div>
+
+                <div class="textpic">
+                    <p>Olivia video</p>
+                </div>
+
+            </div>
+
+            <div class="main">
+                <div class="bernhard">
+                    <img src="bernhard1200px%202.jpg" alt="bernhard" class="americanmagazine">
+                    <div class="overlay">
+                        <div class="text"><a href="02.02.01.html">02.02.01-02.02.06</a></div>
+                    </div>
+                </div>
+
+                <div class="textpic">
+                    <p>Redesign af hjemmeside</p>
+                </div>
+
+            </div>
+
+        </div>
+
+
+    </section>
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+</body>
+
+</html>

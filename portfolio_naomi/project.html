@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <meta name="robots" content="no index">
+
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <header>
+
+
+        <div id="title">
+
+        </div>
+        <div class="topnav" id="myTopnav">
+
+            <a href="#home" class="active">Portfolio</a>
+
+            <div class="dropdown">
+                <button class="dropbtn"><a href="about.html">
+                        about
+                    </a>
+                    <i class="fa fa-caret-down"></i>
+                </button>
+
+            </div>
+
+            <div class="dropdown">
+                <button class="dropbtn"><a href="project.html">
+                        project
+                    </a>
+                    <i class="fa fa-caret-down"></i>
+                </button>
+
+                <div class="dropdown-content">
+                    <div class="content"><a href="tema1.html">
+                            <h2 style="font-size: 0.8vw;">Tema 1</h2>
+                        </a>
+                    </div>
+                    <div class="content"><a href="tema2.html">
+                            <h2 style="font-size: 0.8vw;">Tema 2</h2>
+                        </a>
+                    </div>
+                    <div class="content"><a href="tema3.html">
+                            <h2 style="font-size: 0.8vw;">Tema 3</h2>
+                        </a>
+                    </div>
+                    <div class="content"><a href="tema4.html">
+                            <h2 style="font-size: 0.8vw;">Tema 4</h2>
+                        </a>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+        </div>
+
+
+    </header>
+
+
+    <section id="projects_mainpage">
+
+
+        <div class="main">
+            <div class="responsive_site">
+                <img src="Sk%C3%A6rmbillede%202019-01-03%20kl.%2014.15.04.jpg" alt="oliviabohl" class="americanmagazine">
+                <div class="overlay">
+                    <div class="text"><a href="01.04.02.html">01.04.02</a></div>
+                </div>
+            </div>
+
+            <div class="textpic">
+                <p>Tema 1 - Responsive Site</p>
+            </div>
+        </div>
+
+        <div class="main">
+
+            <div class="olivia">
+                <img src="Sk%C3%A6rmbillede%202019-01-02%20kl.%2017.09.43.jpg" alt="oliviabohl" class="americanmagazine">
+                <div class="overlay">
+                    <div class="text"><a href="02.01.01.html">02.01.01</a></div>
+                </div>
+            </div>
+
+            <div class="textpic">
+                <p>Tema 2 - Pilotprojekt</p>
+            </div>
+
+        </div>
+
+        <div class="main">
+            <div class="bernhard">
+                <img src="bernhard1200px%202.jpg" alt="bernhard" class="americanmagazine">
+                <div class="overlay">
+                    <div class="text"><a href="02.02.01.html">02.02.01-02.02.06</a></div>
+                </div>
+            </div>
+
+            <div class="textpic">
+                <p>Tema 2 - Redesign af hjemmeside</p>
+            </div>
+
+        </div>
+
+
+        <div class="main">
+            <div class="game">
+                <img src="titelscene-100%202.jpg" alt="spil" class="americanmagazine">
+                <div class="overlay">
+                    <div class="text"><a href="03.03.03.html">03.01.04-03.03.03</a></div>
+                </div>
+            </div>
+
+            <div class="textpic">
+                <p>Tema 3 - Animationsspil</p>
+            </div>
+
+        </div>
+
+
+        <div class="main">
+            <div class="sexogsamfund">
+                <img src="Sk%C3%A6rmbillede%202019-01-04%20kl.%2020.35.00.jpg" alt="sexogsamfund" class="americanmagazine">
+                <div class="overlay">
+                    <div class="text"><a href="03.05.01.html">03.05.01</a></div>
+                </div>
+            </div>
+            <div class="textpic">
+                <p>Tema 3 - Sex og Samfund</p>
+            </div>
+
+        </div>
+
+        <div class="main">
+            <div class="webprototype">
+                <img src="Sk%C3%A6rmbillede%202019-01-07%20kl.%2010.24.52.png" alt="webprototype" class="americanmagazine">
+                <div class="overlay">
+                    <div class="text"><a href="04.03.01.html">04.03.01</a></div>
+                </div>
+            </div>
+
+            <div class="textpic">
+                <p>Tema 4 - Webprtotype</p>
+            </div>
+
+        </div>
+
+        <div class="main">
+            <div class="nativeapp">
+                <img src="Sk%C3%A6rmbillede%202018-12-21%20kl.%2010.19.09%202.jpg" alt="nativeapp" class="americanmagazine">
+                <div class="overlay">
+                    <div class="text"><a href="04.04.01.html">04.04.01</a></div>
+                </div>
+            </div>
+
+            <div class="textpic">
+                <p>Tema 4 - Native App</p>
+            </div>
+        </div>
+
+
+    </section>
+
+
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+
+
+</body>
+
+</html>

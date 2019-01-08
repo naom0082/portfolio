@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <meta name="robots" content="no index">
+
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <header>
+
+        <div class="title">
+
+            <h1>Native App</h1>
+
+        </div>
+        <div class="topnav" id="myTopnav">
+
+           <a href="#home" class="active">
+                Portfolio
+            </a>
+
+            <div class="dropdown">
+                <div class="dropbtn"><a href="about.html">
+                        about
+                    </a>
+                    <i class="fa fa-caret-down"></i>
+                </div>
+
+            </div>
+
+            <div class="dropdown">
+                <div class="dropbtn"><a href="project.html">
+                        projects
+                    </a>
+                    <i class="fa fa-caret-down"></i>
+                </div>
+
+                <div class="dropdown-content">
+                    <div class="content"><a href="tema1.html">
+                            <h2 style="font-size: 0.8vw;">Tema 1</h2>
+                        </a>
+                    </div>
+                    <div class="content"><a href="tema2.html">
+                            <h2 style="font-size: 0.8vw;">Tema 2</h2>
+                        </a>
+                    </div>
+                    <div class="content"><a href="tema3.html">
+                            <h2 style="font-size: 0.8vw;">Tema 3</h2>
+                        </a>
+                    </div>
+                    <div class="content"><a href="tema4.html">
+                            <h2 style="font-size: 0.8vw;">Tema 4</h2>
+                        </a>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+        </div>
+    </header>
+
+    <section id="tema3">
+
+        <div class="sectionwrapper">
+
+            <div class="billede_et">
+                <img src="Sk%C3%A6rmbillede%202018-12-21%20kl.%2010.19.09%202.jpg" class="americanmagazine" alt="nativeapp">
+            </div>
+
+            <div class="link_petitgas">
+                <a href="https://xd.adobe.com/view/1f381ebb-998a-48a2-6c04-43a49e3c2312-6909/screen/d91fcd25-ed67-4782-831d-28ee1c95bd34/Kantine-Start?fbclid=IwAR2Alkhvt6YCpIxIGy7UmFthEq7OEB-0EaTqn25jZ8BvUIR8atg1NxxY-bU&fullscreen">Se den færdige Web-prototype her!</a>
+            </div>
+
+            <p style="font-size: 1.3vw;">
+                Vi fik i denne opgave frie hænder, til at skabe en app for KEA studerende, som vi mente ville være relevant. Den skulle skabe en anden platform, end vores tidligere Fronter-løsning.
+                Vi fik 4 dage til sprintet og vi skulle til sidst pitche vores idé i mindre grupepr af studerende og undervisere.
+                Krav: <br>
+                1. ios og/eller android<br>
+                2. En visuel stil, som kan begrundes<br>
+                3. Team Canvas<br>
+                3. Følge Design Sprint udviklingsprocessen<br><br>
+            </p>
+
+            <div class="boks">
+
+                <p style="font-size: 1.6vw;">Design Sprint</p>
+                <p style="font-size: 1.3vw;">
+
+                    <p style="font-size: 1.3vw;">
+                        MAP<br>
+                        SKETCH<br>
+                        DECIDE<br>
+                        PROTOTYPE<br>
+                        TEST<br><br>
+                        Efterfulgt af 7 minutters Pitch-slideshow for vores løsning, som kan ses <a href="slide.html">HER</a>
+                    </p>
+
+            </div>
+
+
+        </div>
+
+
+    </section>
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <meta name="robots" content="no index">
+
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <header>
+
+        <div class="title">
+            <h1>Web Prototype</h1>
+        </div>
+        <div class="topnav" id="myTopnav">
+<a href="#home" class="active">
+                Portfolio
+            </a>
+
+            <div class="dropdown">
+                <div class="dropbtn"><a href="about.html">
+                        about
+                    </a>
+                    <i class="fa fa-caret-down"></i>
+                </div>
+
+            </div>
+
+            <div class="dropdown">
+                <div class="dropbtn"><a href="project.html">
+                        projects
+                    </a>
+                    <i class="fa fa-caret-down"></i>
+                </div>
+
+                <div class="dropdown-content">
+                    <div class="content"><a href="tema1.html">
+                            <h2 style="font-size: 0.8vw;">Tema 1</h2>
+                        </a>
+                    </div>
+                    <div class="content"><a href="tema2.html">
+                            <h2 style="font-size: 0.8vw;">Tema 2</h2>
+                        </a>
+                    </div>
+                    <div class="content"><a href="tema3.html">
+                            <h2 style="font-size: 0.8vw;">Tema 3</h2>
+                        </a>
+                    </div>
+                    <div class="content"><a href="tema4.html">
+                            <h2 style="font-size: 0.8vw;">Tema 4</h2>
+                        </a>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+        </div>
+
+    </header>
+
+    <section id="tema2">
+
+        <div class="sectionwrapper">
+
+            <div class="americantext">
+
+                <img src="Sk%C3%A6rmbillede%202019-01-07%20kl.%2010.24.52.png" alt="webprototype">
+
+                <div class="link_ux">
+                    <a href="http://naomitangoe.dk/kea/04-ux/04_03_01_web_prototype/">Se den færdige Web-prototype her!</a>
+
+                </div>
+
+                <div class="text_spil">
+                    <p style="font-size: 1.6vw;"> Overstående billede er vores startside til vores Web-prototype. </p>
+                    <p style="font-size: 1.3vw;">I dette gruppe projekt skulle vi igennem tidligere designsprint lave en Adobe XD prototype af en fornter-løsning, samt kode den i henholdsvis HTML, CSS og Javascript.</p>
+                </div>
+
+            </div>
+            <div class="boks_ux">
+
+                <p style="font-size: 1.9vw;">KOMPETENCER</p>
+
+                <p style="font-size: 1.3vw;">
+                    Med dette projekt har jeg udviklet en stor forståelse for, hvordan man overføre en XD prototype til en Web-prototype. Jeg har fået kendskab til mere avanceret kodning en tidligere og hvordan man kan bruge Javascript til web-løsninger fremfor spil.
+                    Vi har i gruppen haft store overvejelser om farvevalg, og frontskærmen. Udover dette har vi udviklet et char-forum, som både kan være mellem undervisere, studerende men også grupper i mellem.
+
+                </p>
+
+
+            </div>
+        </div>
+    </section>
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+</body>
+
+</html>
